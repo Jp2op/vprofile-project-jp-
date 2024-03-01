@@ -37,7 +37,7 @@ services:
     volumes:
       - vproappdata:/usr/local/tomcat/webapps
 
-    vproweb:
+  vproweb:
     build:
       context: ./Docker-files/web
     image: jp2op/vprofileweb
